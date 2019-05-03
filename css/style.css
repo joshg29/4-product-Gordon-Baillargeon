@@ -20,3 +20,11 @@
 .w3-hover-theme:hover {color:#fff !important; background-color:#54a40c !important}
 .w3-hover-text-theme:hover {color:#54a40c !important}
 .w3-hover-border-theme:hover {border-color:#54a40c !important}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Luckiest Guy', cursive;
+}
