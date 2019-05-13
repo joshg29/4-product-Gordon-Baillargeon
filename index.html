@@ -19,17 +19,6 @@
 
         <h3>"</h3>
         <h1 style="text-align: center; font-family: 'Akronim', cursive; font-size: 64px">Lawn Vacuums</h1>
-        <!-- Sidebar on click -->
-        <nav class="w3-sidebar w3-bar-block w3-theme w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
-                <i class="fa fa-remove"></i>
-            </a>
-            <a href="#" class="w3-bar-item w3-button">Link 1</a>
-            <a href="#" class="w3-bar-item w3-button">Link 2</a>
-            <a href="#" class="w3-bar-item w3-button">Link 3</a>
-            <a href="#" class="w3-bar-item w3-button">Link 4</a>
-            <a href="#" class="w3-bar-item w3-button">Link 5</a>
-        </nav>
 
         <!-- Navbar -->
         <div class="w3-top" style="font-family: 'Luckiest Guy', cursive;">
@@ -187,13 +176,7 @@
             </div>
 
         </div>
-
-        <!-- Container -->
-        <div class="w3-container" style="position:relative">
-            <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
-               style="position:absolute;top:-28px;right:24px">+</a>
-        </div>
-
+        
         <!-- Pricing Row -->
         <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
             <h2>PRICING</h2>
@@ -260,6 +243,36 @@
             </div>
         </div>
 
+                <!-- Slideshow -->
+        <header>
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="img/billy-goat-lawn-vacuum.jpg" style="width:100%">
+                    <div class="text"><center><h3>Billy Goat (27") Walk Behind Lawn/Litter Vacuum</h3></center></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/agri-fab-lawn-vacuum.jpg" style="width:100%">
+                    <div class="text"><center><h3>Agri-Fab Mow-N-Vac Tow Behind Lawn Vacuum</h3></center></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/peco-lawn-vacuum.jpg" style="width:100%">
+                    <div class="text"><center><h3>Peco X30 30 Cu Ft 900 Series Tow Behind Lawn Vacuum</h3></center></div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+        </header>
+        
         <!-- Contact Container -->
         <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
             <div class="w3-row">
@@ -309,6 +322,9 @@
             </div>
         </footer>
 
+        <!-- javascript -->
+        <script src="js/slideshow.js"></script>
+        
         <script>
             // Script for side navigation
             function w3_open() {
